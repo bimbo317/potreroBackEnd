@@ -1,0 +1,125 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.py-7 {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+}
+
+.cabecera {
+  font-family: Inter, sans-serif !important;
+  color: #3d3d3d !important;
+  line-height: 2rem;
+  font-size: 1.5rem !important;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  padding: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #a7a1a1 !important;
+}
+
+.tecnica {
+  background-color: #f09e3d !important;
+  border-color: #f09e3d !important;
+  border-radius: 12px;
+  font-size: 12px;
+  height: 24px;
+  color: #fff;
+  margin-right: 8px !important;
+  padding: 0 12px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.v-chip {
+  vertical-align: middle;
+  border-radius: 4px !important;
+}
+
+.v-chip.v-size--small {
+  border-radius: 12px;
+  font-size: 12px;
+  height: 24px;
+}
+
+.v-application .py-7 {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+}
+
+.v-application .ml-2 {
+  margin-left: 8px !important;
+}
+
+.headline {
+  font-size: 1.5rem!important;
+  font-weight: 400;
+  letter-spacing: normal!important;
+  color: #3d3d3d !important;
+}
+
+.subtitle-1 {
+  font-size: 1.2rem!important;
+  letter-spacing: .009375em!important;
+  line-height: 1.75rem;
+  color: #3d3d3d !important;
+}
+
+.v-application .display-1 {
+  font-size: 2.125rem!important;
+  line-height: 2.5rem;
+  letter-spacing: .0073529412em!important;
+  color: #3d3d3d !important;
+}
+
+.v-application .date,
+body .date,
+html .date {
+  font-size: 0.8rem;
+  color: #a5a5a5;
+}
+
+a:link, a:visited, a:active {
+  color: #212529;
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.v-icon {
+  display: inline-flex;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.v-application .black--text {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+
+.v-application .font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.mdi-check-bold::before {
+  content: "✓ "; /*figura de la viñeta*/
+  color: #40c351; /* color de la viñeta*/
+}
+
+.blue--text::before {
+  content: "✓ "; /*figura de la viñeta*/
+  font-size: 24px;
+  color: #2d9cf4; /* color de la viñeta*/
+}
