@@ -65,7 +65,7 @@
                                     /*
     numero 1
     */
-                                    echo '<div class="mt-4 subtitle-1">1. Mostrar los números del 1 al 100.</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>1. Mostrar los números del 1 al 100.</div><br>';
                                     $a = 1;
                                     while ($a <= 100) {
                                         if ($a != 1) {
@@ -77,7 +77,7 @@
                                     /*
     numero 2
     */
-                                    echo '<div class="mt-4 subtitle-1">2. Mostrar los números del 100 al 1.</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>2. Mostrar los números del 100 al 1.</div><br>';
                                     $b = 100;
                                     do {
                                         if ($b != 100) {
@@ -89,7 +89,7 @@
                                     /*
     numero 3
     */
-                                    echo '<div class="mt-4 subtitle-1">3. Mostrar los números pares del 1 al 100.</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>3. Mostrar los números pares del 1 al 100.</div><br>';
                                     $c = 1;
                                     while ($c <= 100) {
                                         if ($c % 2 == 0) {
@@ -103,7 +103,7 @@
                                     /*
     numero 4
     */
-                                    echo '<div class="mt-4 subtitle-1">4. Mostrar los números impares del 1 al 100.</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>4. Mostrar los números impares del 1 al 100.</div><br>';
                                     $d = 1;
                                     do {
                                         if ($d % 2 == 1) {
@@ -117,7 +117,7 @@
                                     /*
     numero 5
     */
-                                    echo '<div class="mt-4 subtitle-1">5. Mostrar la suma de los números de 1 a 20.</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>5. Mostrar la suma de los números de 1 a 20.</div><br>';
                                     $suma = 0;
                                     for ($e = 0; $e <= 20; $e++) {
                                         $suma = $suma + $e;
@@ -126,7 +126,7 @@
                                     /*
     numero 6
     */
-                                    echo '<div class="mt-4 subtitle-1">6. Mostrar la suma de números pares de 1 a 20.</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>6. Mostrar la suma de números pares de 1 a 20.</div><br>';
                                     $sumaImpares = 0;
                                     for ($f = 0; $f <= 20; $f++) {
                                         if ($f % 2 == 0) {

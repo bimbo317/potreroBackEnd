@@ -65,9 +65,9 @@
                                     /*
     numero 1
     */
-                                    echo '<div class="mt-4 subtitle-1">1. Crear una variable n y validar que sea un número positivo</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>1. Crear una variable n y validar que sea un número positivo</div><br>';
                                     $n = 0;
-                                    echo "Valor de variable:" . $n . "<br>";
+                                    echo "Valor de variable: " . $n . "<br>";
                                     if ($n > 0) {
                                         echo "el número es positivo";
                                     } else {
@@ -76,9 +76,9 @@
                                     /*
     numero 2
     */
-                                    echo '<div class="mt-4 subtitle-1">2. Crea una variable n y validar que sea un número mayor a 1 y menor a 10</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>2. Crea una variable n y validar que sea un número mayor a 1 y menor a 10</div><br>';
                                     $variableN2 = 4;
-                                    echo "Valor de variable:" . $variableN2 . "<br>";
+                                    echo "Valor de variable: " . $variableN2 . "<br>";
                                     if ($variableN2 > 1 && $variableN2 < 10) {
                                         echo $variableN2 . " es mayor que 1 y menor que 10";
                                     } else {
@@ -87,9 +87,9 @@
                                     /*
     numero 3
     */
-                                    echo '<div class="mt-4 subtitle-1">3. Crear una variable n y validar que sea un número mayor a 10 o menor a 2</div>';
+                                    echo '<div class="mt-4 subtitle-1"><br>3. Crear una variable n y validar que sea un número mayor a 10 o menor a 2</div><br>';
                                     $variableN3 = 4;
-                                    echo "Valor de variable:" . $variableN3 . "<br>";
+                                    echo "Valor de variable: " . $variableN3 . "<br>";
                                     if ($variableN3 > 10 || $variableN3 < 2) {
                                         echo $variableN3 . " es mayor que 10 o menor que 2";
                                     } else {
@@ -98,11 +98,11 @@
                                     /*
     numero 4
     */
-                                    echo '<div class="mt-4 subtitle-1">4. Crear dos variables, una con nombre numero1 y otra con el nombre de numero2. Si numero1 es
+                                    echo '<div class="mt-4 subtitle-1"><br>4. Crear dos variables, una con nombre numero1 y otra con el nombre de numero2. Si numero1 es
     mayor a numero2, mostrar por pantalla, la suma y la resta. Si numero2 es mayor a numero1,
     mostrar por pantalla la multiplicación, la división entera y el resto de la división. Si numero1 y
-    numero2 son iguales, mostrar el siguiente mensaje “Los números ingresados son iguales”</div>';
-                                    $numero1 = 6;
+    numero2 son iguales, mostrar el siguiente mensaje “Los números ingresados son iguales”</div><br>';
+                                    $numero1 = 1;
                                     $numero2 = 6;
                                     echo "Valor de Número 1: " . $numero1 . "<br>";
                                     echo "Valor de Número 2: " . $numero2 . "<br>";
