@@ -60,6 +60,13 @@ h1 {
   font-weight: 900;
 }
 
+.width45 {
+  padding: 10vh 6vw;
+  height: 50%;
+  max-width: 36% !important;
+  min-width: 36% !important;
+}
+
 .segment,
 a {
   color: #000;
@@ -114,6 +121,8 @@ a {
   min-width: 36%;
 }
 
+
+
 @media only screen and (max-width: 1000px) {
   .logo {
     width: 200px;
@@ -131,7 +140,7 @@ a {
   .mb {
     margin-bottom: 0;
   }
-  .width40 {
+  .width40, .width45 {
     max-width: 92vw;
     min-width: 92vw;
   }

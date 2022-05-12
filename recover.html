@@ -17,17 +17,31 @@
         <div class="row">
             <div class="col-12 col-md-5 left">
                 <div class="container">
-                    <div class="segment">
+                    <div class="segment width45">
                         <a href="./login.html"><i class="fas fa-arrow-left mb-4 mr-1"></i>Volver</a>
                         <h1>Recuperar</h1>
                         <h1>contraseña</h1>
-                        <form class="mt-4" method="post" action="https://plataforma.potrerodigital.org/user/recover/send">
-                          <div class="mb-3">
-                              <p>Usuario: bimbo</p>
-                              <p>Contraseña: bimbo</p>
+                        <div class="ui negative message alert alert-warning text-wrap" id="error" style="display: none;">
+                            <strong>El usuario ingresado no existe</strong>
+                        </div>
+                        <div class="ui negative message alert alert-warning text-wrap" id="ok" style="display: none;">
+                            <strong>Contraseña guardada</strong>
+                        </div>
+                        <div class="mb-3">
+                              <!-- <p>Ingrese un usuario existente y la nueva contraseña, si el usuario existe se guardara la contraseña ingresada.</p>-->
+                              <form action="recovery.php" id="form_recovery" method="post" style="display:inline">
+                                <div class="mb-3">
+                                    <input type="text" name="user" class="form-control" id="id_user" placeholder="Ingrese Usuario" required="required">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" name="password" class="form-control" id="id_pass" placeholder="Nueva Contraseña" required="required">
+                                </div>
+                                <button type="submit" class="btn">Guardar</button>
+                            </form>
+                            <form action="recovery.php" id="form_volver" method="post" style="display:none">
+                                <a href="./login.html" class="btn">Volver</a>
+                            </form>
                           </div>
-                          <a href="./login.html" class="btn">Volver</a>
-                        </form>
                       </div>
                 </div>
             </div>
