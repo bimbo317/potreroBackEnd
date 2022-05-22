@@ -108,3 +108,43 @@ img{
     display: block;
     margin: 0px auto;
 }
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+
+div.dropdown.btn.selectoption{
+    padding: 6px !important;
+    width: 125px;
+}
+
+.form-select{
+    width: 125px;
+    color: #6c757d;
+    display: inline !important;
+    height: 38px;
+    margin: 4px;
+    padding: 0 12px;
+}
+
+/*.form-select:hover{
+    color: rgb(255, 255, 255);
+    background-color: #6C757D;
+}*/
+
+.btn-outline-secondary:hover {
+    color: rgb(255, 255, 255) !important;
+    border-color: transparent;
+}
+
+.btn-outline-secondary:active{
+    border-color: #C2DBFE;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #ced4da;
+    color: #6c757d !important;
+    width: 125px;
+}
+

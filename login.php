@@ -17,7 +17,7 @@ while ($reg1 = mysqli_fetch_array($datos1)) {
     $usuario = $reg1['user'];
     $contra = $reg1['password'];
     if ($user == $usuario && $pass == $contra) {
-        header("location:index.html");
+        header("location:index.php");
     }
 }
 include("login.html");
