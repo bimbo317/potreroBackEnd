@@ -1,5 +1,5 @@
 <?php
-require_once 'paginas/header.php';
+require_once 'layouts/header.php';
 ?>
 <!-- Columna Central -->
 <div class="order-3 order-md-2 col-lg-7 col-xl-8 col-12">
@@ -40,7 +40,7 @@ require_once 'paginas/header.php';
       </div>
     </div>
     <!-- Clase 9 -->
-    <a href="./tp7_backend.php">
+    <a href="./layouts/tps/tp7_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -68,7 +68,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 8 -->
-    <a href="./tp6_backend.php">
+    <a href="./layouts/tps/tp6_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -96,7 +96,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 7 -->
-    <a href="./tp5_backend.php">
+    <a href="./layouts/tps/tp5_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -126,7 +126,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 6 -->
-    <a href="./tp4bis_backend.php">
+    <a href="./layouts/tps/tp4bis_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -156,7 +156,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 5 -->
-    <a href="./tp4_backend.php">
+    <a href="./layouts/tps/tp4_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -184,7 +184,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 4 -->
-    <a href="./tp3_backend.php">
+    <a href="./layouts/tps/tp3_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -214,7 +214,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 3 -->
-    <a href="./tp2_backend.php">
+    <a href="./layouts/tps/tp2_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12 subtitle-1">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -242,7 +242,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 2 -->
-    <a href="./tp1_backend.php">
+    <a href="./layouts/tps/tp1_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -272,7 +272,7 @@ require_once 'paginas/header.php';
       </div>
     </a>
     <!-- Clase 1 -->
-    <a href="./tp0_backend.php">
+    <a href="./layouts/tps/tp0_backend.php">
       <div class="row cursor-pointer ml-2">
         <div class="text-left col-md-auto col-12">
           <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
@@ -305,5 +305,5 @@ require_once 'paginas/header.php';
 </div>
 <!-- Columna Derecha -->
 <?php
-require_once 'paginas/footer.php';
+require_once 'layouts/footer.php';
 ?>

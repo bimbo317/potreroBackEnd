@@ -1,5 +1,5 @@
 <?php
-require_once 'paginas/headertareas.php';
+require_once '../headertareas.php';
 ?>
 
 <span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-chevron-left theme--light" style="font-size: 40px;"></i></span>
@@ -27,7 +27,7 @@ Clase 9
                 <a href="?p=todos" type="submit" class="btn btn-outline-secondary m-1">Todos</a>
                 <?php
                 // 1) Buscamos archivo de conexion
-                require('paginas/conexion.php');
+                require('../conexion.php');
                 // 2) Preparar la orden SQL
                 $consulta0 = 'SELECT DISTINCT marca FROM ropa';
                 //$datos0 = mysqli_query($conexion, $consulta0);
@@ -52,12 +52,12 @@ Clase 9
     <p>La siguiente lista muestra los datos de la ropa actualmente en stock.</p>
     <?php
     //cargamos el php con los filtros
-    require_once 'paginas/filtrar.php';
+    require_once '../filtrar.php';
     ?>
     </div>
     </div>
     </div>
 </section>
 <?php
-require_once 'paginas/footertareas.php';
+require_once '../footertareas.php';
 ?>

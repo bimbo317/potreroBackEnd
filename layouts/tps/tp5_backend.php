@@ -1,5 +1,5 @@
 <?php
-require_once 'paginas/headertareas.php';
+require_once '../headertareas.php';
 ?>
 <span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-chevron-left theme--light" style="font-size: 40px;"></i></span>
 Clase 7
@@ -21,8 +21,8 @@ echo '<div class="mt-2 subtitle-1">Entregar captura de pantalla de la base de da
 ?>
 <section>
     <br>
-    <img src="./img/tp05.jpg">
+    <img src="../../img/tp05.jpg">
 </section>
 <?php
-require_once 'paginas/footertareas.php';
+require_once '../footertareas.php';
 ?>
