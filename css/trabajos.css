@@ -148,3 +148,10 @@ div.dropdown.btn.selectoption{
     width: 125px;
 }
 
+.delete_btn{
+    width: 85px;
+}
+
+.delete_btn:hover{
+    background-color: rgb(109, 5, 5);
+}

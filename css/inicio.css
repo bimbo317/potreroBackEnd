@@ -90,7 +90,7 @@ html .date {
 }
 
 a:link, a:visited, a:active {
-  color: #212529;
+  /*color: #212529;*/
   text-decoration: none;
 }
 

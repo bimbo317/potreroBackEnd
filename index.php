@@ -39,6 +39,34 @@ require_once 'layouts/header.php';
         <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
       </div>
     </div>
+    <!-- Clase 10 -->
+    <a href="./layouts/tps/tp8_backend.php">
+      <div class="row cursor-pointer ml-2">
+        <div class="text-left col-md-auto col-12">
+          <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
+              Back End
+            </span></span>
+        </div>
+        <div class="col subtitle-1">Clase 10 - ABM PARTE 1 (DELETE)</div>
+        <div class="date col-md-4 col-12">
+          <div class="row">
+            <div class="d-flex justify-end col col-12">
+              <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
+              <span class="font-weight-bold black--text">
+                Entrega a término
+              </span>
+              <!---->
+            </div>
+            <div class="d-flex justify-end col col-12">
+              Fecha de entrega 01-jun
+            </div>
+          </div>
+        </div>
+        <div class="col col-12">
+          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+        </div>
+      </div>
+    </a>
     <!-- Clase 9 -->
     <a href="./layouts/tps/tp7_backend.php">
       <div class="row cursor-pointer ml-2">

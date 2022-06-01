@@ -24,7 +24,7 @@ Clase 9
             <h1>Tienda de ropa</h1><br>
             <ul class="row1">
                 <a href="?p=menor" type="submit" class="btn btn-outline-secondary m-1" name="menor">Menor a 500</a>
-                <a href="?p=todos" type="submit" class="btn btn-outline-secondary m-1">Todos</a>
+                <a href="./tp8_backend.php" type="submit" class="btn btn-outline-secondary m-1">Listar</a>
                 <?php
                 // 1) Buscamos archivo de conexion
                 require('../conexion.php');

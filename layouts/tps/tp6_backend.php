@@ -31,7 +31,7 @@ echo '<div class="mt-2 subtitle-1">Entregar solo captura de pantalla</div>';
             echo '<div class="mt-2 subtitle-1 pb-2"><div class="mt-2 ml-2 subtitle-1">
                                                 b. buzo, addidas, l, 400</div>
                                                 </div>';
-            echo '<img src="./img/tp06.jpg">';
+            echo '<img src="../../img/tp06.jpg">';
             // 1) Conexion y selección de base de datos
             $conexion = mysqli_connect("127.0.0.1", "root", "", null, "3366");
             mysqli_select_db($conexion, "tienda"); // esto lo podemos poner acá o mas abajo, no hay problema
