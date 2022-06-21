@@ -6,7 +6,7 @@ require_once '../headertareas.php';
 Clase 6
 </div>
 </div>
-<div class="d-flex justify-end col-md-6 col-12" style="align-items: center;">
+<div class="d-flex justify-content-end col-md-6 col-12">
     Fecha de entrega 27-abr
     <span class="ml-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
             Back End
@@ -16,10 +16,10 @@ Clase 6
 </div>
 </div>
 <hr role="separator" aria-orientation="horizontal" class="w-2 mt-1 v-divider theme--light" />
-<div class="headline">Practico Nº4 Bis</div>
-<div class="mt-2 subtitle-1">Crear un archivo “tp4bis_backend.php” y realizar los siguientes ejercicios:
+<div class="headline px-3">Practico Nº4 Bis</div>
+<div class="mt-2 subtitle-1 px-3">Crear un archivo “tp4bis_backend.php” y realizar los siguientes ejercicios:
 </div>
-<section>
+<section class="px-4">
     <?php
     /*
     numero 1

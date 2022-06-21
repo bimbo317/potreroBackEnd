@@ -6,7 +6,7 @@ require_once '../headertareas.php';
 Clase 9
 </div>
 </div>
-<div class="d-flex justify-end col-md-6 col-12" style="align-items: center;">
+<div class="d-flex justify-content-end col-md-6 col-12">
     Fecha de entrega 18-may
     <span class="ml-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
             Back End
@@ -16,9 +16,9 @@ Clase 9
 </div>
 </div>
 <hr role="separator" aria-orientation="horizontal" class="w-2 mt-1 v-divider theme--light" />
-<div class="headline">Practico 9</div>
-<div class="mt-2 subtitle-1">Agregar un campo a la tabla del practico anterior, que contenga la imagen del producto. Insertar en la pagina listar.php links o botones que me filtren los productos por marca y uno que me filtre los productos con un valor menor a 5000</div>
-<section>
+<div class="headline px-3">Practico 9</div>
+<div class="mt-2 subtitle-1 px-3">Agregar un campo a la tabla del practico anterior, que contenga la imagen del producto. Insertar en la pagina listar.php links o botones que me filtren los productos por marca y uno que me filtre los productos con un valor menor a 5000</div>
+<section class="px-4">
     <div class="container">
         <div class="row">
             <h1>Tienda de ropa</h1><br>
@@ -27,7 +27,7 @@ Clase 9
                 <a href="./tp8_backend.php" type="submit" class="btn btn-outline-secondary m-1">Listar</a>
                 <?php
                 // 1) Buscamos archivo de conexion
-                require('../conexion.php');
+                require_once('../conexion.php');
                 // 2) Preparar la orden SQL
                 $consulta0 = 'SELECT DISTINCT marca FROM ropa';
                 //$datos0 = mysqli_query($conexion, $consulta0);
@@ -45,11 +45,14 @@ Clase 9
         </div>
     </div> <!-- fin row1 -->
     <?php
+    //
     $pagina = isset($_GET['p']) ? strtolower($_GET['p']) : 'todos';
     ?>
     </div>
+    <div class="px-3">
     <h2>Lista de ropa</h2>
     <p>La siguiente lista muestra los datos de la ropa actualmente en stock.</p>
+    </div>
     <?php
     //cargamos el php con los filtros
     require_once '../filtrar.php';

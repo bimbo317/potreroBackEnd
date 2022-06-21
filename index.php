@@ -1,6 +1,7 @@
 <?php
 require_once 'layouts/header.php';
 ?>
+
 <!-- Columna Central -->
 <div class="order-3 order-md-2 col-lg-7 col-xl-8 col-12">
   <div class="container py-7" id="tareas">
@@ -22,7 +23,7 @@ require_once 'layouts/header.php';
       <div class="col subtitle-1" style="color: #a7a1a1 !important">
         Clase -
       </div>
-      <div class="date col-md-4 col-12">
+      <div class="date col-md-3 col-12">
         <div class="row">
           <div class="d-flex justify-end col col-12">
             <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-minus-thick theme--light grey--text"></i>
@@ -35,9 +36,65 @@ require_once 'layouts/header.php';
           </div>
         </div>
       </div>
-      <div class="col col-12">
-        <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+    </div>
+    <div class="col col-12">
+      <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+    </div>
+    <!-- Clase 12 -->
+    <a href="./layouts/tps/tp10_backend.php">
+      <div class="row cursor-pointer ml-2">
+        <div class="text-left col-md-auto col-12">
+          <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
+              Back End
+            </span></span>
+        </div>
+        <div class="col subtitle-1">Clase 12 - Entrega de Proyecto Final</div>
+        <div class="date col-md-3 col-12">
+          <div class="row">
+            <div class="d-flex justify-end col col-12">
+              <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
+              <span class="font-weight-bold black--text px-1">
+                Entrega a término
+              </span>
+              <!---->
+            </div>
+            <div class="d-flex justify-end col col-12">
+              Fecha de entrega 23-jun
+            </div>
+          </div>
+        </div>
       </div>
+    </a>
+    <div class="col col-12">
+      <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+    </div>
+    <!-- Clase 11 -->
+    <a href="./layouts/tps/tp9_backend.php">
+      <div class="row cursor-pointer ml-2">
+        <div class="text-left col-md-auto col-12">
+          <span class="mr-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
+              Back End
+            </span></span>
+        </div>
+        <div class="col subtitle-1">Clase 11 - ABM PARTE 2 (INSERT INTO - UPDATE)</div>
+        <div class="date col-md-3 col-12">
+          <div class="row">
+            <div class="d-flex justify-end col col-12">
+              <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light blue--text"></i>
+              <span class="font-weight-bold black--text px-1">
+                Entrega fuera de término
+              </span>
+              <!---->
+            </div>
+            <div class="d-flex justify-end col col-12">
+              Fecha de entrega 08-jun
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <div class="col col-12">
+      <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
     </div>
     <!-- Clase 10 -->
     <a href="./layouts/tps/tp8_backend.php">
@@ -48,11 +105,11 @@ require_once 'layouts/header.php';
             </span></span>
         </div>
         <div class="col subtitle-1">Clase 10 - ABM PARTE 1 (DELETE)</div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -62,11 +119,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+      <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+    </div>
     <!-- Clase 9 -->
     <a href="./layouts/tps/tp7_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -76,11 +133,11 @@ require_once 'layouts/header.php';
             </span></span>
         </div>
         <div class="col subtitle-1">Clase 9 - Práctico 9</div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -90,11 +147,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+      <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+    </div>
     <!-- Clase 8 -->
     <a href="./layouts/tps/tp6_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -104,11 +161,11 @@ require_once 'layouts/header.php';
             </span></span>
         </div>
         <div class="col subtitle-1">Clase 8 - Conexión DB</div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -118,11 +175,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+      <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+    </div>
     <!-- Clase 7 -->
     <a href="./layouts/tps/tp5_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -134,11 +191,11 @@ require_once 'layouts/header.php';
         <div class="col subtitle-1">
           Clase 7 - Base de Datos
         </div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -148,11 +205,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+      <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+    </div>
     <!-- Clase 6 -->
     <a href="./layouts/tps/tp4bis_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -164,11 +221,11 @@ require_once 'layouts/header.php';
         <div class="col subtitle-1">
           Clase 6 - Práctico 4 bis
         </div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -178,11 +235,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+        </div>
     <!-- Clase 5 -->
     <a href="./layouts/tps/tp4_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -192,11 +249,11 @@ require_once 'layouts/header.php';
             </span></span>
         </div>
         <div class="col subtitle-1">Clase 5 - Login</div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -206,11 +263,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+        </div>
     <!-- Clase 4 -->
     <a href="./layouts/tps/tp3_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -222,11 +279,11 @@ require_once 'layouts/header.php';
         <div class="col subtitle-1">
           Clase 4 - Trabajo práctico 3
         </div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -236,11 +293,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+        </div>
     <!-- Clase 3 -->
     <a href="./layouts/tps/tp2_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -250,11 +307,11 @@ require_once 'layouts/header.php';
             </span></span>
         </div>
         <div class="col subtitle-1">Clase 3 - Práctico 2</div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -264,11 +321,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+        </div>
     <!-- Clase 2 -->
     <a href="./layouts/tps/tp1_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -280,11 +337,11 @@ require_once 'layouts/header.php';
         <div class="col subtitle-1">
           Clase 2 - Práctico 1 - Variables y operadores
         </div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light green--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega a término
               </span>
               <!---->
@@ -294,11 +351,11 @@ require_once 'layouts/header.php';
             </div>
           </div>
         </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
-        </div>
       </div>
     </a>
+    <div class="col col-12">
+          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
+        </div>
     <!-- Clase 1 -->
     <a href="./layouts/tps/tp0_backend.php">
       <div class="row cursor-pointer ml-2">
@@ -310,11 +367,11 @@ require_once 'layouts/header.php';
         <div class="col subtitle-1">
           Clase 1 - Herramientas necesarias - XAMPP
         </div>
-        <div class="date col-md-4 col-12">
+        <div class="date col-md-3 col-12">
           <div class="row">
             <div class="d-flex justify-end col col-12">
               <i aria-hidden="true" medium="" class="v-icon notranslate mdi mdi-check-bold theme--light blue--text"></i>
-              <span class="font-weight-bold black--text">
+              <span class="font-weight-bold black--text px-1">
                 Entrega fuera de término
               </span>
               <!---->
@@ -323,9 +380,6 @@ require_once 'layouts/header.php';
               Fecha de entrega 23-mar
             </div>
           </div>
-        </div>
-        <div class="col col-12">
-          <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light" />
         </div>
       </div>
     </a>

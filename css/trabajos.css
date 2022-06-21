@@ -148,10 +148,23 @@ div.dropdown.btn.selectoption{
     width: 125px;
 }
 
-.delete_btn{
-    width: 85px;
+.btn{
+    width: 135px;
 }
 
-.delete_btn:hover{
-    background-color: rgb(109, 5, 5);
+.mb-3> .imagenUpdate{
+    display: flex;
+    align-items: center;
+}
+.row > .centrado{
+    display: grid;
+    justify-items: center;
+}
+
+.delete_btn{
+    width: 95px!important;
+}
+
+.update_btn{
+    width: 95px!important;
 }

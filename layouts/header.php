@@ -22,54 +22,27 @@
     <title>Inicio</title>
   </head>
   <body>
-    <div
-      data-app="true"
-      class="v-application v-application--is-ltr theme--light"
-      id="myApp"
-    >
+    <div data-app="true" class="v-application v-application--is-ltr theme--light" id="myApp">
       <div class="v-application--wrap">
         <div class="v-main pb-10" style="padding: 0px" data-booted="true">
           <div class="v-main__wrap">
-            <div
-              class="container minHeight100 container--fluid"
-              id="panelGeneral"
-            >
+            <div class="container minHeight100 container--fluid" id="panelGeneral">
               <div id="novedades" class="row pt-12 justify-center">
                 <!-- Columna Izquierda -->
                 <div class="mt-md-10 py-0 order-2 order-md-1 col-md-2 col-12">
                   <div class="container py-0">
-                    <div
-                      role="list"
-                      class="v-list v-sheet v-sheet--shaped theme--light"
-                    >
-                      <div
-                        role="listbox"
-                        class="v-item-group theme--light v-list-item-group"
-                      >
-                        <div
-                          tabindex="0"
-                          role="option"
-                          aria-selected="false"
-                          class="v-list-item v-list-item--link theme--light"
-                        >
+                    <div role="list" class="v-list v-sheet v-sheet--shaped theme--light">
+                      <div role="listbox" class="v-item-group theme--light v-list-item-group">
+                        <div tabindex="0" role="option" aria-selected="false" class="v-list-item v-list-item--link theme--light">
                           <div class="v-list-item__content">
-                            <div
-                              class="v-list-item__title font-weight-bold subtitle-1"
-                            >
+                            <div class="v-list-item__title font-weight-bold subtitle-1">
                               Novedades
                             </div>
                           </div>
                         </div>
-                        <div
-                          tabindex="0"
-                          role="option"
-                          aria-selected="false"
-                          class="v-list-item v-list-item--link theme--light"
-                        >
+                        <div tabindex="0" role="option" aria-selected="false" class="v-list-item v-list-item--link theme--light">
                           <div class="v-list-item__content">
-                            <div
-                              class="v-list-item__title font-weight-bold subtitle-1"
-                            >
+                            <div class="v-list-item__title font-weight-bold subtitle-1">
                               Clases
                             </div>
                           </div>

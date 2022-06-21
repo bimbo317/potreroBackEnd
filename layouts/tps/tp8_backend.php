@@ -21,7 +21,7 @@ require_once '../headertareas.php';
 Clase 10
 </div>
 </div>
-<div class="d-flex justify-end col-md-6 col-12" style="align-items: center;">
+<div class="d-flex justify-content-end col-md-6 col-12">
     Fecha de entrega 1-jun
     <span class="ml-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
             Back End
@@ -31,9 +31,9 @@ Clase 10
 </div>
 </div>
 <hr role="separator" aria-orientation="horizontal" class="w-2 mt-1 v-divider theme--light" />
-<div class="headline">ABM PARTE 1 (DELETE)</div>
-<div class="mt-2 subtitle-1">Crear una página que liste todos los registros de la tabla con la que veníamos trabajando y agregar la opción de borrar que se linkée con el archivo borrar.php que elimina el registro seleccionado según su id, el cual es enviado a través del método GET</div>
-<section>
+<div class="headline px-3">ABM PARTE 1 (DELETE)</div>
+<div class="mt-2 subtitle-1 px-3">Crear una página que liste todos los registros de la tabla con la que veníamos trabajando y agregar la opción de borrar que se linkée con el archivo borrar.php que elimina el registro seleccionado según su id, el cual es enviado a través del método GET</div>
+<section class="px-4">
     <div class="container">
         <div class="row">
             <h1>Tienda de ropa</h1><br>

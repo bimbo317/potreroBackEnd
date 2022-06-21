@@ -6,7 +6,7 @@ require_once '../headertareas.php'
 Clase 1
 </div>
 </div>
-<div class="d-flex justify-end col-md-6 col-12" style="align-items: center;">
+<div class="d-flex justify-content-end col-md-6 col-12">
     Fecha de entrega 23-mar
     <span class="ml-2 v-chip v-chip--label theme--dark v-size--small tecnica"><span class="v-chip__content">
             Back End
@@ -17,8 +17,8 @@ Clase 1
 </div>
 <hr role="separator" aria-orientation="horizontal" class="w-2 mt-1 v-divider theme--light" />
 <?php
-echo '<div class="headline">Herramientas necesarias - XAMPP</div>';
-echo '<div class="mt-2 subtitle-1">Instalar XAMPP</div>';
+echo '<div class="headline px-3">Herramientas necesarias - XAMPP</div>';
+echo '<div class="mt-2 subtitle-1 px-3">Instalar XAMPP</div>';
 ?>
 <section>
     <br>
